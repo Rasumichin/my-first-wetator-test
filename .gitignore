@@ -1,4 +1,8 @@
+# Eclipse specific files
 /target/
 /.classpath
 /.project
 /.settings
+
+# Wetator specific files
+/src/test/logs
