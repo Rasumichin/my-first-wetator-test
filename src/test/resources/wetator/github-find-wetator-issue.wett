@@ -1,3 +1,9 @@
 open-url        || https://github.com/
 
+# Check we are there
 assert-title    || GitHub
+assert-content	|| Where the world builds software
+
+# Initiate GitHub-wide search for 'wetator'
+click-on		|| Search GitHub
+set				|| 						|| wetator
